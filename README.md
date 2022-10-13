@@ -18,6 +18,15 @@ There are a couple ways to get started with Git and GitHub. You can create a new
 7. Run `git clone <url>` where `<url>` is the URL of your repository.
 8. Run `cd <repo-name>` where `<repo-name>` is the name of your repository.
 
+
+### Clone an existing repository on GitHub to your computer
+
+1. Go to the repository on GitHub.
+2. Copy the URL of the repository. (ssh if you have an ssh key set up, https otherwise)
+3. In your terminal, navigate to the directory where you want to clone your repository.
+4. Run `git clone <url>` where `<url>` is the URL of your repository.
+5. Run `cd <repo-name>` where `<repo-name>` is the name of your repository.
+
 NOTE: If you cloned from someone else's repository, you will not have permission to push to it. You will need to have the owner of the repository add you as a collaborator. to do this the owner will need to:
 
 1. Go to the repository on GitHub.
@@ -27,6 +36,7 @@ NOTE: If you cloned from someone else's repository, you will not have permission
 5. Enter the username of the person you want to add as a collaborator.
 6. Click "Add <username> to <repo-name>".
 7. the person you added will receive an email with a link to accept the invitation.
+
 
 
 ### Create a new repository on your computer and push it to GitHub
